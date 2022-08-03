@@ -1,14 +1,14 @@
 
 # ICT Skills 2 Assignment.
 
-Name: [your name]
+Name: Nile O'Hagan Student No: 20095361
 
 ## Overview.
 
-[ A paragraph on your React app's concept followed by a bullet-point list of its feature set - only list new/modified features if you are expanding the Movies app. ]
+[ An expansion of the moviesApp from labs ]
 
 e.g. 
-+ Feature 1
++ Similar Movies List - when viewing a movie's details a link to similar movies is available which will bring the user to the list of similar movies to that particular movie selected.
 + Feature 2
 + Feature 3
 + etc
@@ -25,17 +25,17 @@ e.g.
 [List the set of routes your app supports - only mention new instances if you expanded the Movies Fan app. State the view linked with each route.] 
 
 e.g.
-+ /movies/:id - detailed information on a specific movie.
-+ /movies/upcoming - lists movies soon to be shown in cinemas.
-+ etc.
++ 
++ 
++ /movie/:id/similar - lists movies similar to the movie the link is selected in
 + etc.
 
 ### Views/Pages.
 
 [ For each view in your app, show a screenshot and caption - only new/modified ones in the case of the Movies Fan app. If necessary, use multiple screenshots to cover a view's full capability.
 
-e.g.
->Lists movies from the Discover endpoint. Filtering on title and genre attributes is supported.
+
+>Similar Movies Link appears on the Movies Details page. Selecting the link takes user to a Similar Movies List Page where the movies are displayed as in the Discover page format.
 
 ![][d1]
 
@@ -86,8 +86,8 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 
 [Briefly explain any aspects of your assignment work that required independent learning (i.e. not addressed in the lectures or labs) on your behalf., e.g. 3rd-party components, libraries, tools. Include source code references.]
 
-[d1]: ./public/discover1.png
-[d2]: ./public/discover2.png
+[d1]: ./public/similarLink.PNG
+[d2]: ./public/similarMoviesPage.PNG
 [detail]: ./public/detail.png
 [caching]: ./public/caching.png
 [stories]: ./public/stories.png
