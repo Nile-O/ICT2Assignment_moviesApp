@@ -50,8 +50,10 @@ e.g.
 
 [ Use the Storybook UI to highlight the new components for which you developed stories.]
 e.g.
-
-![][stories]
+The person card feature was developed using storybook
+![][personCard]
+As was the personList feature.
+![][personList]
 
 ## Caching.
 
@@ -90,4 +92,5 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 [simPage]: ./public/similarMoviesPage.PNG
 [topRated]: ./public/topRated.png
 [caching]: ./public/caching.png
-[stories]: ./public/stories.png
+[personCard]: ./public/personCard.story.png
+[personList]: ./public/personList.story.png
