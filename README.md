@@ -8,8 +8,8 @@ Name: Nile O'Hagan Student No: 20095361
 [ An expansion of the moviesApp from labs ]
 
 e.g. 
-+ Similar Movies List - when viewing a movie's details a link to similar movies is available which will bring the user to the list of similar movies to that particular movie selected.
-+ Feature 2
++ Similar Movies List - when viewing a movie's details a link to similar movies is available which will bring the user to the list of similar movies to that particular movie selected. Using Parameterized URL.
++ Top Rated Movies List - used current blank option 3 on menu to display top rated movies from a static URL
 + Feature 3
 + etc
 + etc
@@ -24,10 +24,10 @@ e.g.
 
 [List the set of routes your app supports - only mention new instances if you expanded the Movies Fan app. State the view linked with each route.] 
 
-e.g.
-+ 
-+ 
+
 + /movie/:id/similar - lists movies similar to the movie the link is selected in
++ /movie/top_rated - TopRatedMoviesPage lists the movies in the movielist template format
++ 
 + etc.
 
 ### Views/Pages.
@@ -37,13 +37,13 @@ e.g.
 
 >Similar Movies Link appears on the Movies Details page. Selecting the link takes user to a Similar Movies List Page where the movies are displayed as in the Discover page format.
 
-![][d1]
+![][simLink]
 
-![][d2]
+![][simPage]
 
->Shows detailed information on a specific movie
+>Shows a list of the TOp Rated Movies on the app
 
-![][detail]
+![][topRated]
 
 
 ### Component catalogue.
@@ -86,8 +86,8 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 
 [Briefly explain any aspects of your assignment work that required independent learning (i.e. not addressed in the lectures or labs) on your behalf., e.g. 3rd-party components, libraries, tools. Include source code references.]
 
-[d1]: ./public/similarLink.PNG
-[d2]: ./public/similarMoviesPage.PNG
-[detail]: ./public/detail.png
+[simLink]: ./public/similarLink.PNG
+[simPage]: ./public/similarMoviesPage.PNG
+[topRated]: ./public/topRated.png
 [caching]: ./public/caching.png
 [stories]: ./public/stories.png
