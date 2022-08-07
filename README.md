@@ -71,13 +71,11 @@ As was the personList feature.
 
 [ List the TMDB server state cached by the app. Include a screenshot(s) of the react-query dev tools to validate your list.]
 
-e.g.
-+ Discover movies (pagination support)
-+ Movie details
- + etc
-+ etc
++ Popular Person list
++ Person Details
 
-![][caching]
+![][cachingPop]
+![][cachingPerson]
 
 ## Authentication (if relevant).
 
@@ -105,6 +103,7 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 [topRated]: ./public/topRated.png
 [popularPerson]: ./public/popularPerson.png
 [specific]: ./public/specificPerson.png
-[caching]: ./public/caching.png
+[cachingPop]: ./public/cachingPop.png
+[cachingPerson]: ./public/cachingPerson.png
 [personCard]: ./public/personCard.story.png
 [personList]: ./public/personList.story.png
