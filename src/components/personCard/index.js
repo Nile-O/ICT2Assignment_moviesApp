@@ -62,7 +62,7 @@ export default function PersonCard({ person, action }) {
       </CardContent>
       <CardActions disableSpacing>
         {action(person)}
-        <Link to={``}>
+        <Link to={`/person/${person.id}`}>
           <Button variant="outlined" size="medium" color="primary">
             More Info ...
           </Button>

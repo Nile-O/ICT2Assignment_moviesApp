@@ -7,7 +7,7 @@ Name: Nile O'Hagan Student No: 20095361
 
 [ An expansion of the moviesApp from labs ]
 
-e.g. 
+
 + Similar Movies List - when viewing a movie's details a link to similar movies is available which will bring the user to the list of similar movies to that particular movie selected. Using Parameterized URL.
 + Top Rated Movies List - used current blank option 3 on menu to display top rated movies from a static URL
 + Feature 3
@@ -16,7 +16,11 @@ e.g.
 
 ## Setup requirements.
 
-[ Briefly state (to a third party) the setup steps necessary to run your app/client locally, e.g. .env and any other config files.]
+In order to run this app you must create an account with TMDB and generate your own API key. This should be stored in a .env file within the program folder.
+
+To run the app open a terminal and ensure all dependencies are installed (npm install) then (npm start).
+
+If you wish to use storybook to look at each functioning component (npm run storybook)
 
 ## App Design.
 
@@ -27,8 +31,8 @@ e.g.
 
 + /movie/:id/similar - lists movies similar to the movie the link is selected in
 + /movie/top_rated - TopRatedMoviesPage lists the movies in the movielist template format
-+ 
-+ etc.
++ /person/popular - lists the most popular actors on the app currently
++ /person/:id - shows details for the indiviual actor selected on a separate page
 
 ### Views/Pages.
 
@@ -41,9 +45,17 @@ e.g.
 
 ![][simPage]
 
->Shows a list of the TOp Rated Movies on the app
+>Shows a list of the Top Rated Movies on the app
 
 ![][topRated]
+
+>Popular Person Page shows a list of the most popular people listed on the website
+
+![][popularPerson]
+
+>By selecting More Info on the popular person's card it is possible o view their biography, some images and some more details on the person
+
+![][specific]
 
 
 ### Component catalogue.
@@ -91,6 +103,8 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 [simLink]: ./public/similarLink.PNG
 [simPage]: ./public/similarMoviesPage.PNG
 [topRated]: ./public/topRated.png
+[popularPerson]: ./public/popularPerson.png
+[specific]: ./public/specificPerson.png
 [caching]: ./public/caching.png
 [personCard]: ./public/personCard.story.png
 [personList]: ./public/personList.story.png

@@ -17,16 +17,12 @@ const PopularPersonPage = (props) => {
   }  
   const persons = data.results;
 
-  // These three lines are redundant; we will replace them laterg.
-  const favourites = persons.filter(p => p.favouurite)
-  localStorage.setItem('favourites', JSON.stringify(favourites))
-
   return (
     <PageTemplate
       title="Popular Persons"
       persons={persons}
-      action={(movie) => {
-        return <AddToFavouritesIcon movie={movie} />
+      action={(person) => {
+        return <AddToFavouritesIcon person={person} />
       }}
     />  
   );
