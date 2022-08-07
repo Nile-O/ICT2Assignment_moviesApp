@@ -10,8 +10,8 @@ Name: Nile O'Hagan Student No: 20095361
 
 + Similar Movies List - when viewing a movie's details a link to similar movies is available which will bring the user to the list of similar movies to that particular movie selected. Using Parameterized URL.
 + Top Rated Movies List - used current blank option 3 on menu to display top rated movies from a static URL
-+ Feature 3
-+ etc
++ Created a person detail - this included a detail card displaying biography and details
++ Popular persons list - used current blank 4 option on menu to display the most popular people on the app
 + etc
 
 ## Setup requirements.
