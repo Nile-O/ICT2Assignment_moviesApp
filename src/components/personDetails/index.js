@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Cake from '@material-ui/icons/Cake';
 import Place from '@material-ui/icons/Place';
+import { Link } from 'react-router-dom'; 
 
 const useStyles = makeStyles((theme) => ({
   chipRoot: {
@@ -57,6 +58,14 @@ const PersonDetails = ( {person}) => {
                   icon={<StarRate />}
                   label={`${person.popularity}`} />
           </Paper>
+          <Link
+                  to={`/person/${person.id}/movie_credits`}
+                  state={{
+                    person: person,
+                  }}
+                >
+                  Movie Credits
+                </Link>
       </>
   );
 };

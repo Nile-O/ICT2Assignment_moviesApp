@@ -102,7 +102,16 @@ const MovieDetails = ( {movie}) => {
                 >
                   Similar Movies
                 </Link>
-    </>
+                <p>                   </p>
+    <Link
+    to={`/movie/${movie.id}/credits`}
+    state={{
+      movie: movie,
+    }}
+  >
+    Credits for this Movie
+  </Link>
+</>
   );
 };
 export default  MovieDetails ;
