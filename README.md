@@ -123,7 +123,7 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 [cachingPerson]: ./public/cachingPerson.png
 [personCard]: ./public/personCard.story.png
 [personList]: ./public/personList.story.png
-[credits1]: ./public/movieCredits.png
-[credits2]: ./public/movieCreditsList.png
-[credits3]: ./public/pplCreditsLink.png
-[credits4]: ./public/pplCredits.png
+[credits3]: ./public/movieCredits.png
+[credits4]: ./public/movieCreditsList.png
+[credits1]: ./public/pplCreditsLink.png
+[credits2]: ./public/pplCredits.png
