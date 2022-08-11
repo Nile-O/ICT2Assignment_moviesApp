@@ -12,7 +12,8 @@ Name: Nile O'Hagan Student No: 20095361
 + Top Rated Movies List - used current blank option 3 on menu to display top rated movies from a static URL
 + Created a person detail - this included a detail card displaying biography and details
 + Popular persons list - used current blank 4 option on menu to display the most popular people on the app
-+ etc
++ Added Link to a person's movie credits on their details page
++ Added Link to a movie's details page to the cast and crew credits for a movie
 
 ## Setup requirements.
 
@@ -33,11 +34,10 @@ If you wish to use storybook to look at each functioning component (npm run stor
 + /movie/top_rated - TopRatedMoviesPage lists the movies in the movielist template format
 + /person/popular - lists the most popular actors on the app currently
 + /person/:id - shows details for the indiviual actor selected on a separate page
++ /movie/:id/credits - displays the cast and crew credits for a selected movie
++ /person/:id/movie_credits - displays the movie credits for a seledted person
 
 ### Views/Pages.
-
-[ For each view in your app, show a screenshot and caption - only new/modified ones in the case of the Movies Fan app. If necessary, use multiple screenshots to cover a view's full capability.
-
 
 >Similar Movies Link appears on the Movies Details page. Selecting the link takes user to a Similar Movies List Page where the movies are displayed as in the Discover page format.
 
@@ -56,6 +56,22 @@ If you wish to use storybook to look at each functioning component (npm run stor
 >By selecting More Info on the popular person's card it is possible o view their biography, some images and some more details on the person
 
 ![][specific]
+
+>Added a link to a movie's details page to show the Cast and Crew Credits
+
+![][credits1]
+
+>The link displays the cast of that movie
+
+![][credits2]
+
+>Added a link to a Person's details page to show their Movie Credits
+
+![][credits3]
+
+>The link displays the movie credits of that person
+
+![][credits4]
 
 
 ### Component catalogue.
@@ -107,3 +123,7 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 [cachingPerson]: ./public/cachingPerson.png
 [personCard]: ./public/personCard.story.png
 [personList]: ./public/personList.story.png
+[credits1]: ./public/movieCredits.png
+[credits2]: ./public/movieCreditsList.png
+[credits3]: ./public/pplCreditsLink.png
+[credits4]: ./public/pplCredits.png
